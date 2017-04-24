@@ -1,7 +1,4 @@
-/.*
-!/.gitignore
-!/.travis.yml
-/bower_components/
-/node_modules/
-/output/
-/dist/app.js
+.stack-work
+.purify-work
+index.js
+*~

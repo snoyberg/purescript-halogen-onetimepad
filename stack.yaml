@@ -1,0 +1,12 @@
+resolver: lts-8.9
+packages:
+- location:
+    git: https://github.com/purescript/purescript.git
+    commit: ac57b5d74a0086c48d377c28a6912c2cb6359f6a
+  extra-dep: false
+- location:
+    git: https://github.com/snoyberg/purify.git
+    commit: 66a60fba14ca5bc749dee83e1286e0406ddffae6
+  extra-dep: false
+extra-deps:
+- pipes-http-1.0.5
