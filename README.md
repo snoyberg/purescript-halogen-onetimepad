@@ -7,6 +7,5 @@ This is a template for starting a fresh project using the
 for declarative user interfaces. To build it:
 
 1. [Get Stack](https://haskell-lang.org/get-started)
-2. Run `stack build`
-3. Run `stack exec purify`
-4. Open `index.html`
+2. Run `stack build purescript purify --exec purify`
+3. Open `index.html`
